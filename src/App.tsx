@@ -1,15 +1,16 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import './App.css'
 
-function App() {
+export function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+    <div className="container">
+      <header>
+        <h1>React + TypeScript + Tailwind CSS</h1>
         <p>
           Edit <code>src/App.tsx</code> and save to reload.
         </p>
+      </header>
+
+      <main className="App-main">
         <a
           className="App-link"
           href="https://reactjs.org"
@@ -18,9 +19,7 @@ function App() {
         >
           Learn React
         </a>
-      </header>
+      </main>
     </div>
-  );
+  )
 }
-
-export default App;
